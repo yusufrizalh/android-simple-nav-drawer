@@ -14,6 +14,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -96,6 +97,11 @@ public class MainActivity extends AppCompatActivity {
                         binding.drawer.closeDrawer(GravityCompat.START);
                         callFragment(fragment);
                         break;
+                    case R.id.nav_pegawai:
+                        fragment = new PegawaiFragment();
+                        binding.drawer.closeDrawer(GravityCompat.START);
+                        callFragment(fragment);
+                        break;
                 }
                 return true;
             }
@@ -141,24 +147,32 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.navigation_item, menu);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.option_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-        switch (id) {
-            case R.id.nav_home:
-                Toast.makeText(this, "Home Fragment is Clicked", Toast.LENGTH_SHORT).show();
+        switch (item.getItemId()) {
+            case R.id.menu_1:
+                Toast.makeText(this, "New Menu is selected.", Toast.LENGTH_LONG).show();
                 return true;
-            case R.id.nav_aboutUs:
-                Toast.makeText(this, "About Us Fragment is Clicked", Toast.LENGTH_SHORT).show();
+
+            case R.id.menu_3:
+                Toast.makeText(this, "Exit is selected.", Toast.LENGTH_LONG).show();
                 return true;
-            case R.id.nav_contactUs:
-                Toast.makeText(this, "Contact Us Fragment is Clicked", Toast.LENGTH_SHORT).show();
+
+            case R.id.sub_menu1:
+                Toast.makeText(this, "Text Size is selected.", Toast.LENGTH_LONG).show();
                 return true;
+
+            case R.id.sub_menu2:
+                Toast.makeText(this, "Text Style is selected.", Toast.LENGTH_LONG).show();
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return false;
     }
 }

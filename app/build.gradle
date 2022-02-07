@@ -49,4 +49,7 @@ dependencies {
 
     // circle image
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // fab
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
 }

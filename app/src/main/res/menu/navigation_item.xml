@@ -18,5 +18,10 @@
             android:icon="@android:drawable/ic_menu_call"
             android:title="About Us" />
 
+        <item
+            android:id="@+id/nav_pegawai"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="Data Pegawai" />
+
     </group>
 </menu>

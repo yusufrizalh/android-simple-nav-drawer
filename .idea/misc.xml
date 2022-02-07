@@ -5,12 +5,16 @@
       <map>
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/drawable/item_background_nav_checked.xml" value="0.28072916666666664" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/activity_main.xml" value="0.26458333333333334" />
+        <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/activity_tambah_data.xml" value="0.26458333333333334" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/fragment_about_us.xml" value="0.26458333333333334" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/fragment_contact_us.xml" value="0.26458333333333334" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/fragment_home.xml" value="0.26458333333333334" />
+        <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/fragment_pegawai.xml" value="0.25052083333333336" />
+        <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/list_item_layout.xml" value="0.26458333333333334" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/layout/nav_header_layout.xml" value="0.5" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/menu/drawer_menu.xml" value="0.26458333333333334" />
         <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/menu/navigation_item.xml" value="0.26458333333333334" />
+        <entry key="..\:/android-maybank/SimpleDrawer/app/src/main/res/menu/option_menu.xml" value="0.26458333333333334" />
       </map>
     </option>
   </component>

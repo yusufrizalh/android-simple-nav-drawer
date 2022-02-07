@@ -19,9 +19,9 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:title="Simple Drawer"
                 android:minHeight="?attr/actionBarSize"
-                android:background="@color/design_default_color_secondary"/>
+                android:theme="?attr/actionBarTheme"
+                android:background="@color/custom_color_1"/>
 
             <FrameLayout
                 android:id="@+id/frameLayout"
